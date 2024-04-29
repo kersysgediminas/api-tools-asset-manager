@@ -15,7 +15,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "8.0.99"
+            "php": "8.1.99"
         },
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
@@ -25,16 +25,16 @@
         "class": "Laminas\\ApiTools\\AssetManager\\Plugin"
     },
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "composer-plugin-api": "^1.1 || ^2.0",
-        "laminas/laminas-zendframework-bridge": "^1.0"
+        "laminas/laminas-zendframework-bridge": "^1.1"
     },
     "require-dev": {
-        "composer/composer": "^1.4.1 || ^2.1.9",
+        "composer/composer": "^1.10.18 || ^2.1.9",
         "laminas/laminas-coding-standard": "~2.3.0",
         "mikey179/vfsstream": "^1.6.10",
-        "phpspec/prophecy-phpunit": "^2.0",
-        "phpunit/phpunit": "^9.5.27",
+        "phpspec/prophecy-phpunit": "^2.0.1",
+        "phpunit/phpunit": "^9.6.11",
         "psalm/plugin-phpunit": "^0.16.1",
         "vimeo/psalm": "^4.30"
     },
